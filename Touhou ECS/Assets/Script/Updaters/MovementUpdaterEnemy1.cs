@@ -2,6 +2,7 @@ using Script.ECS;
 using Script.Modules;
 using UnityEngine;
 
+
 namespace Script.Updaters
 {
     public class MovementUpdaterEnemy1 : IUpdater

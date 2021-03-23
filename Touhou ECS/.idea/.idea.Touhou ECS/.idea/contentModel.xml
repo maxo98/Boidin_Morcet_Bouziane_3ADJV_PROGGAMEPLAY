@@ -17,6 +17,7 @@
           <e p="Modules" t="Include">
             <e p="CooldownModule.cs" t="Include" />
             <e p="Enemy1Module.cs" t="Include" />
+            <e p="SpawnModule.cs" t="Include" />
             <e p="SpeedModule.cs" t="Include" />
             <e p="ZigZagModule.cs" t="Include" />
           </e>
@@ -39,6 +40,7 @@
             <e p="MovementUpdaterPlayer.cs" t="Include" />
             <e p="MovementUpdaterZigZag.cs" t="Include" />
             <e p="ShotUpdaterType1.cs" t="Include" />
+            <e p="SpawnUpdater.cs" t="Include" />
           </e>
         </e>
       </e>
