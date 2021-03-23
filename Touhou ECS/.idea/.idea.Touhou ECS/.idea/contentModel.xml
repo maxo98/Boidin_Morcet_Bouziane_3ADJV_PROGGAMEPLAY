@@ -13,10 +13,12 @@
             <e p="TModule.cs" t="Include" />
             <e p="UpdateManager.cs" t="Include" />
           </e>
-          <e p="Enemy1Module.cs" t="Include" />
-          <e p="MovementUpdaterEnemy1.cs" t="Include" />
-          <e p="MovementUpdaterPlayer.cs" t="Include" />
-          <e p="MovementUpdaterZigZag.cs" t="Include" />
+          <e p="Modules" t="Include">
+            <e p="CooldownModule.cs" t="Include" />
+            <e p="Enemy1Module.cs" t="Include" />
+            <e p="SpeedModule.cs" t="Include" />
+            <e p="ZigZagModule.cs" t="Include" />
+          </e>
           <e p="ObjectPooling" t="Include">
             <e p="Pool.cs" t="Include" />
             <e p="PoolableObject.cs" t="Include" />
@@ -31,8 +33,12 @@
             <e p="PlayerInputController.cs" t="Include" />
             <e p="ProjEnemy.cs" t="Include" />
           </e>
-          <e p="SpeedModule.cs" t="Include" />
-          <e p="ZigZagModule.cs" t="Include" />
+          <e p="Updaters" t="Include">
+            <e p="MovementUpdaterEnemy1.cs" t="Include" />
+            <e p="MovementUpdaterPlayer.cs" t="Include" />
+            <e p="MovementUpdaterZigZag.cs" t="Include" />
+            <e p="ShotUpdaterType1.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
