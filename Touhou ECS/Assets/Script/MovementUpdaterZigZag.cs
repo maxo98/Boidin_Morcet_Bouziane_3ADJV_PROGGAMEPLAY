@@ -12,11 +12,12 @@ public class MovementUpdaterZigZag : IUpdater
         foreach (var module in zigzagAccessor.GetAllModules())
         {
             var entity = module.gameObject;
+            var currentMod = zigzagAccessor.TryGetModule(entity);
             var otherMod = speedAccessor.TryGetModule(entity);
 
-            if (otherMod != null)
+            if (otherMod != null && currentMod != null)
             {
-                entity.transform.position += entity.transform.forward* Time.deltaTime * otherMod.Speed + entity.transform.right * Mathf.Sin(Time.time * module.Frequency) * module.Magnitude;
+                entity.transform.position += entity.transform.forward* Time.deltaTime * otherMod.Speed + entity.transform.right * Mathf.Sin(Time.time * currentMod.Frequency) * currentMod.Magnitude;
             }
         }
     }
