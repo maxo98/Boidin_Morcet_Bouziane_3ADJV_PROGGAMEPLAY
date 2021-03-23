@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\maxo9\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\maxo9\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Touhou ECS.-45507454.00" t="ExcludeRecursive" />
+    <e p="E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="IUpdater.cs" t="Include" />
+        <e p="MovementUpdater.cs" t="Include" />
+        <e p="SpeedModule.cs" t="Include" />
+        <e p="TAccessor.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Touhou ECS.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
