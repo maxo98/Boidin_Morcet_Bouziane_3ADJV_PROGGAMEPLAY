@@ -1,20 +1,15 @@
 ﻿using System;
+using Script.Updaters;
 using UnityEngine;
 
 namespace Script.ECS
 {
     public class UpdateManager : MonoBehaviour
     {
-        private readonly IUpdater _updater = IUpdater.Instance();
-
-        private void Start()
-        {
-            _updater.SystemInit(FindObjectsOfType<TModule>());
-        }
-
+        
         private void Update()
         {
-            
+            ShotUpdaterType1.Instance().SystemUpdate();
         }
     }
 }
