@@ -10,6 +10,7 @@ namespace Script.ECS
         private void Update()
         {
             ShotUpdaterType1.Instance().SystemUpdate();
+            MovementUpdaterEnemy1.Instance().SystemUpdate();
         }
     }
 }

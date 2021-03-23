@@ -21,13 +21,7 @@ namespace Script.Updaters
             {
                 Debug.Log("J'AVANCErrrr");
                 var entity = module.gameObject;
-                var currentMod = speedAccessor.TryGetModule(entity);
-
-                if (currentMod != null)
-                {
-                    Debug.Log("J'AVANCE");
-                    entity.transform.position = entity.transform.forward * Time.deltaTime * currentMod.Speed;
-                }
+                entity.transform.position -= entity.transform.forward * (Time.deltaTime * module.Speed);
             }
         }
     }
