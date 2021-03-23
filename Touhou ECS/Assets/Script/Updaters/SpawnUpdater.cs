@@ -14,7 +14,7 @@ namespace Script.Updaters
         }
 
         private readonly List<PoolableObject> _objects = new List<PoolableObject>();
-        
+        private float timeRemaining=20;
         public void SystemUpdate()
         {
             var  poolManager = PoolManager.Instance();
@@ -22,15 +22,25 @@ namespace Script.Updaters
             
             foreach (var module in spawnAccessor.GetAllModules())
             {
-                PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
-                
-                if (ennemy != null)
+                if (timeRemaining > 0)
                 {
-                    ennemy.Init();
-                    _objects.Add(ennemy);
+                    timeRemaining -= Time.deltaTime;
 
-                    ennemy.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f));
                 }
+                else
+                {
+                    timeRemaining = 20;
+                    PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
+
+                    if (ennemy != null)
+                    {
+                        ennemy.Init();
+                        _objects.Add(ennemy);
+
+                        ennemy.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f));
+                    }
+                }
+                    
                 
             }
         }
