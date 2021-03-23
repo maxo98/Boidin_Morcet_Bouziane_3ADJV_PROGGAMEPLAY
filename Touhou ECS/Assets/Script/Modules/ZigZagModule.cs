@@ -6,7 +6,12 @@ namespace Script.Modules
     {
         [SerializeField] private float magnitude;
         [SerializeField] private float frequency;
+        [SerializeField] private float speed;
 
+        private void Awake()
+        {
+            TAccessor<ZigZagModule>.Instance().Add(this);
+        }
 
         public float Magnitude
         {
@@ -18,6 +23,11 @@ namespace Script.Modules
         {
             get => frequency;
             set => frequency = value;
+        } 
+        public float Speed
+        {
+            get => speed;
+            set => speed = value;
         }
     }
 }

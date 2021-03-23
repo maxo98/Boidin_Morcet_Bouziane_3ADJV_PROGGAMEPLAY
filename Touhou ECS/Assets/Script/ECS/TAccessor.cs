@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class TAccessor<T>
+public class TAccessor<T> : IEnumerable
 {
     private static TAccessor<T> _singleton;
     private readonly List<T> _list = new List<T>();
@@ -37,5 +37,10 @@ public class TAccessor<T>
     public void Remove(T module)
     {
         _list.Remove(module);
+    }
+
+    public IEnumerator GetEnumerator()
+    {
+        throw new NotImplementedException();
     }
 }

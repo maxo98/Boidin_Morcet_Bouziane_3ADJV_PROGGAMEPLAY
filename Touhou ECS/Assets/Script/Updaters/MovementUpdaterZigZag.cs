@@ -6,20 +6,24 @@ namespace Script.Updaters
 {
     public class MovementUpdaterZigZag : IUpdater
     {
+        private static MovementUpdaterZigZag _singleton;
+        public static MovementUpdaterZigZag Instance()
+        {
+            return _singleton ??= new MovementUpdaterZigZag();
+        }
         public void SystemUpdate()
         {
             var zigzagAccessor = TAccessor<ZigZagModule>.Instance();
-            var speedAccessor = TAccessor<SpeedModule>.Instance();
+
 
             foreach (var module in zigzagAccessor.GetAllModules())
             {
                 var entity = module.gameObject;
                 var currentMod = zigzagAccessor.TryGetModule(entity);
-                var otherMod = speedAccessor.TryGetModule(entity);
 
-                if (otherMod != null && currentMod != null)
+                if (currentMod != null)
                 {
-                    entity.transform.position += entity.transform.forward* Time.deltaTime * otherMod.Speed + entity.transform.right * Mathf.Sin(Time.time * currentMod.Frequency) * currentMod.Magnitude;
+                    entity.transform.position -= entity.transform.forward* Time.deltaTime * currentMod.Speed + entity.transform.right * Mathf.Sin(Time.time * currentMod.Frequency) * currentMod.Magnitude;
                 }
             }
         }

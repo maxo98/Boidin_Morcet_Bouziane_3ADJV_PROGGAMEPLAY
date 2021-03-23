@@ -815,6 +815,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1746303637111601115, guid: e8a3316ca690f464eb9c46138803b247, type: 3}
+      propertyPath: collider
+      value: 
+      objectReference: {fileID: 3667590027189869580}
     - target: {fileID: 2391053565107828410, guid: e8a3316ca690f464eb9c46138803b247, type: 3}
       propertyPath: m_Name
       value: Player
@@ -869,3 +873,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a3316ca690f464eb9c46138803b247, type: 3}
+--- !u!65 &3667590027189869580 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 1361225749443080241, guid: e8a3316ca690f464eb9c46138803b247, type: 3}
+  m_PrefabInstance: {fileID: 3667590027189869579}
+  m_PrefabAsset: {fileID: 0}

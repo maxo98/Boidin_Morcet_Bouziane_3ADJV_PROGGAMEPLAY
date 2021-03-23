@@ -16,7 +16,7 @@ namespace Script.Updaters
 
         private readonly List<PoolableObject> _objects = new List<PoolableObject>();
             
-        public new void SystemUpdate()
+        public void SystemUpdate()
         {
             var poolManager = PoolManager.Instance();
             var cooldownAccessor = TAccessor<CooldownModule>.Instance();
@@ -26,7 +26,6 @@ namespace Script.Updaters
 
                 if (module != null)
                 {
-
                     if (module.ResetCooldown <= 0)
                     {
                         Debug.Log("Pan !");

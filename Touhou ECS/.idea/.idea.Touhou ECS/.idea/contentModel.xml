@@ -15,6 +15,7 @@
             <e p="UpdateManager.cs" t="Include" />
           </e>
           <e p="Modules" t="Include">
+            <e p="ColliderModule.cs" t="Include" />
             <e p="CooldownModule.cs" t="Include" />
             <e p="Enemy1Module.cs" t="Include" />
             <e p="SpawnModule.cs" t="Include" />
@@ -36,6 +37,7 @@
             <e p="ProjEnemy.cs" t="Include" />
           </e>
           <e p="Updaters" t="Include">
+            <e p="ColliderUpdater.cs" t="Include" />
             <e p="MovementUpdaterEnemy1.cs" t="Include" />
             <e p="MovementUpdaterPlayer.cs" t="Include" />
             <e p="MovementUpdaterZigZag.cs" t="Include" />

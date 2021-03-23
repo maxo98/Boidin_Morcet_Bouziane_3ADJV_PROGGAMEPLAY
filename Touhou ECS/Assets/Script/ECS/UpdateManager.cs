@@ -12,6 +12,8 @@ namespace Script.ECS
             ShotUpdaterType1.Instance().SystemUpdate();
             MovementUpdaterEnemy1.Instance().SystemUpdate();
             SpawnUpdater.Instance().SystemUpdate();
+            MovementUpdaterZigZag.Instance().SystemUpdate();
+            PlayerColliderUpdater.Instance().SystemUpdate();
         }
     }
 }
