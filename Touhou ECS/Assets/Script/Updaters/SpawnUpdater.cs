@@ -7,49 +7,32 @@ namespace Script.Updaters
 {
     public class SpawnUpdater : IUpdater
     {
-        private static ShotUpdaterType1 _singleton;
-        public static ShotUpdaterType1 Instance()
+        private static SpawnUpdater _singleton;
+        public static SpawnUpdater Instance()
         {
-            return _singleton ??= new ShotUpdaterType1();
+            return _singleton ??= new SpawnUpdater();
         }
 
-        List<PoolableObject> Objects;
-        PoolManager poolManager;
-
-        public void start()
-        {
-            Objects = new List<PoolableObject>();
-            poolManager = PoolManager.Instance();
-        }
-
-
+        private readonly List<PoolableObject> _objects = new List<PoolableObject>();
+        
         public void SystemUpdate()
         {
-            var SpawnAccessor = TAccessor<SpawnModule>.Instance();
-
-            Debug.Log("braa");
-
-            foreach (var module in SpawnAccessor.GetAllModules())
+            var  poolManager = PoolManager.Instance();
+            var spawnAccessor = TAccessor<SpawnModule>.Instance();
+            
+            foreach (var module in spawnAccessor.GetAllModules())
             {
-                var entity = module.gameObject;
-                var currentMod = SpawnAccessor.TryGetModule(entity);
-
-                if (currentMod != null)
+                Debug.Log("ff");
+                PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
+                
+                if (ennemy != null)
                 {
-                    PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
+                    ennemy.Init();
+                    _objects.Add(ennemy);
 
-
-
-                    // Initialize and set active all instancied ennemy in the ennemy pool 
-                    if (ennemy != null)
-                    {
-                        ennemy.Init();
-                        Objects.Add(ennemy);
-
-                        ennemy.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f));
-
-                    }
+                    ennemy.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f));
                 }
+                
             }
         }
     }

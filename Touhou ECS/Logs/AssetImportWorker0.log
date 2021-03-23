@@ -1,129 +1,138 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'fr' Physical Memory: 16232 MB
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'fr' Physical Memory: 16329 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+D:\Program Files\Unity3D\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/teobo/Documents/GitHub/Boidin_Morcet_Bouziane_3ADJV_PROGGAMEPLAY/Touhou ECS
+E:/User/Documents/ESGI/gameplay prog/Boidin_Morcet_3ADJV_PROGGAMEPLAY/Touhou ECS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49805
-Successfully changed project path to: C:/Users/teobo/Documents/GitHub/Boidin_Morcet_Bouziane_3ADJV_PROGGAMEPLAY/Touhou ECS
-C:/Users/teobo/Documents/GitHub/Boidin_Morcet_Bouziane_3ADJV_PROGGAMEPLAY/Touhou ECS
+63016
+Successfully changed project path to: E:/User/Documents/ESGI/gameplay prog/Boidin_Morcet_3ADJV_PROGGAMEPLAY/Touhou ECS
+E:/User/Documents/ESGI/gameplay prog/Boidin_Morcet_3ADJV_PROGGAMEPLAY/Touhou ECS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/teobo/Documents/GitHub/Boidin_Morcet_Bouziane_3ADJV_PROGGAMEPLAY/Touhou ECS/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity3D/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/User/Documents/ESGI/gameplay prog/Boidin_Morcet_3ADJV_PROGGAMEPLAY/Touhou ECS/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   26.21.14.4137
+    VRAM:     8079 MB
+    Driver:   27.21.14.6192
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Mono path[0] = 'D:/Program Files/Unity3D/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity3D/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity3D/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002451 seconds.
+Register platform support module: D:/Program Files/Unity3D/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001592 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
+- Completed reload, in  1.982 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000867 seconds.
+Registered in 0.000921 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002A8FC188060 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FD52E190 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F81E3380 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F81AB510 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC676020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F81AB510 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F84437B0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7B2A420 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC6A3A30 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCF61E30 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FD5415A0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F81B9410 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
+- Completed reload, in  1.353 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
-System memory in use after: 57.8 MB.
+System memory in use after: 57.9 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1578.
-Total: 1.583000 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.356200 ms  DeleteObjects: 0.069800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Script/Modules
-  artifactKey: Guid(27c020197705d66498a207c3c847ada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Modules using Guid(27c020197705d66498a207c3c847ada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638638053e573df3701a76070f6c292f') in 0.007035 seconds
-  Import took 0.009329 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1580.
+Total: 16.382000 ms (FindLiveObjects: 2.110600 ms CreateObjectMapping: 0.387500 ms MarkObjects: 13.761500 ms  DeleteObjects: 0.117000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.510919 seconds.
-  path: Assets/Script/Modules/SpawnModule.cs
-  artifactKey: Guid(58c88450fb576ed44b3b8269a61cccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Modules/SpawnModule.cs using Guid(58c88450fb576ed44b3b8269a61cccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b80805142703668be1e701cac06dd09') in 0.034714 seconds
-  Import took 0.036549 seconds .
+  path: Assets/Script/Updaters/SpawnUpdater.cs
+  artifactKey: Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeb6a7f49f651049bea8622c49c1d3e') in 0.042377 seconds
+  Import took 0.045962 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000848 seconds.
+Registered in 0.000692 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.776 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1582.
-Total: 1.761700 ms (FindLiveObjects: 0.120600 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.546200 ms  DeleteObjects: 0.059500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.962481 seconds.
-  path: Assets/Script/Modules/SpeedModule.cs
-  artifactKey: Guid(de7abacf78374883b4cf9cfb73f70310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Modules/SpeedModule.cs using Guid(de7abacf78374883b4cf9cfb73f70310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142b273088efc542cef3f0797b3a3ca7') in 0.025269 seconds
-  Import took 0.029820 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001075 seconds.
-Begin MonoManager ReloadAssembly
+Symbol file data-000002A8F7F498A0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC178030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FD480080 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC6AA230 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCDE4020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC178030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F84437B0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC6AA230 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC178030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FD480080 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7F5FAF0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FD4F2010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -131,77 +140,172 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
+- Completed reload, in  0.815 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
 System memory in use after: 57.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
-Total: 1.801400 ms (FindLiveObjects: 0.114200 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.594400 ms  DeleteObjects: 0.059400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 3.265800 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.121700 ms MarkObjects: 2.578800 ms  DeleteObjects: 0.099200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 184.512900 seconds.
+  Time since last request: 160.731589 seconds.
   path: Assets/Script/Updaters/SpawnUpdater.cs
   artifactKey: Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84defd3b5cbd6f0503bdc02d63e69146') in 0.010391 seconds
-  Import took 0.012584 seconds .
+Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116f2d52f4510c7ce159afe405ab3c74') in 0.003796 seconds
+  Import took 0.005758 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000808 seconds.
+Registered in 0.000755 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002A8FE936730 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7F55C50 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC466030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F81C9420 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7E0A8F0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FE1DC700 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7B0B010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7C53010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC178030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEEFA020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7E03010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8489010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
+- Completed reload, in  0.789 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.8 MB.
+System memory in use after: 57.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 1.820200 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.392700 ms  DeleteObjects: 0.083500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.572209 seconds.
+  path: Assets/Script/Updaters/SpawnUpdater.cs
+  artifactKey: Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baee666ca984f7d9f1649cf1bae7c6c8') in 0.003790 seconds
+  Import took 0.005593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A8F7E4A970 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8384030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7F46240 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FD502020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCE9D5C0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8384030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEAEACB0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8384030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FE938DF0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEEFA020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEA79D50 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FE1CF020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
 System memory in use after: 57.9 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1589.
-Total: 3.898500 ms (FindLiveObjects: 0.287100 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.363100 ms  DeleteObjects: 0.146700 ms)
+Total: 1.975000 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.079100 ms MarkObjects: 1.606700 ms  DeleteObjects: 0.061400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.410581 seconds.
-  path: Assets/Script/Updaters/MovementUpdaterZigZag.cs
-  artifactKey: Guid(8624ebea15043824a8b545a0550deadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Updaters/MovementUpdaterZigZag.cs using Guid(8624ebea15043824a8b545a0550deadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7160600035717cf1a55bd7975d89c01') in 0.007248 seconds
-  Import took 0.009045 seconds .
+  Time since last request: 43.471500 seconds.
+  path: Assets/Script/Updaters/SpawnUpdater.cs
+  artifactKey: Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e119d144f9ad8d496f80c060706c11a') in 0.004087 seconds
+  Import took 0.006553 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021400 seconds.
-  path: Assets/Script/Updaters/MovementUpdaterZigZag.cs
-  artifactKey: Guid(8624ebea15043824a8b545a0550deadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Updaters/MovementUpdaterZigZag.cs using Guid(8624ebea15043824a8b545a0550deadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7160600035717cf1a55bd7975d89c01') in 0.004813 seconds
-  Import took 0.007189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.825667 seconds.
-  path: Assets/Script/Updaters/MovementUpdaterEnemy1.cs
-  artifactKey: Guid(b5e633a2394b47644822287807a9768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Updaters/MovementUpdaterEnemy1.cs using Guid(b5e633a2394b47644822287807a9768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325e2450a59d3023865eba65adf20766') in 0.005849 seconds
-  Import took 0.007750 seconds .
+  Time since last request: 1.449293 seconds.
+  path: Assets/Script/Updaters/SpawnUpdater.cs
+  artifactKey: Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e119d144f9ad8d496f80c060706c11a') in 0.001736 seconds
+  Import took 0.003515 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000913 seconds.
+Registered in 0.000738 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002A8FE936730 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7FFB9A0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCCFB010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FF6B5030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDFF1060 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDF6B030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F801B9C0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7C53010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FE938DF0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7CCDD20 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC6B2030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8489010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -209,224 +313,251 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
+- Completed reload, in  0.757 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
 System memory in use after: 57.9 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1592.
-Total: 1.584400 ms (FindLiveObjects: 0.109500 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.391800 ms  DeleteObjects: 0.053000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 513.738033 seconds.
-  path: Assets/Script/Updaters/MovementUpdaterEnemy1.cs
-  artifactKey: Guid(b5e633a2394b47644822287807a9768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Updaters/MovementUpdaterEnemy1.cs using Guid(b5e633a2394b47644822287807a9768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26b70ef4dd32325f378502e7f5d2caa') in 0.007219 seconds
-  Import took 0.009937 seconds .
+Total: 1.848000 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.573400 ms  DeleteObjects: 0.078700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000865 seconds.
+Registered in 0.000732 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002A8F830D6F0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7FFB9A0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCCFB010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F81C9420 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEFE4010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FF174020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F801B9C0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7C53010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEED6050 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDB31040 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FE062FE0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FF098010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
+- Completed reload, in  0.752 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.9 MB.
 System memory in use after: 57.9 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1595.
-Total: 2.687100 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.262300 ms  DeleteObjects: 0.098400 ms)
+Total: 1.644400 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.268400 ms  DeleteObjects: 0.085700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 913.909489 seconds.
-  path: Assets/Script/ECS/UpdateManager.cs
-  artifactKey: Guid(45e615ebef904c8d8bb84f6716e4e22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ECS/UpdateManager.cs using Guid(45e615ebef904c8d8bb84f6716e4e22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312740cf065d475fee4623979fc4f906') in 0.010675 seconds
-  Import took 0.012839 seconds .
+  Time since last request: 305.329058 seconds.
+  path: Assets/Script/Updaters/SpawnUpdater.cs
+  artifactKey: Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc7ffe4631ef23a6d6704d7513b348f') in 0.003415 seconds
+  Import took 0.005252 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.450359 seconds.
-  path: Assets/Script/Updaters/ShotUpdaterType1.cs
-  artifactKey: Guid(89a2ccb1be0673142b725657473bfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Updaters/ShotUpdaterType1.cs using Guid(89a2ccb1be0673142b725657473bfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b51dcfbc93a7254b9c51543d2c013aa') in 0.006997 seconds
-  Import took 0.008989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024782 seconds.
-  path: Assets/Script/Updaters/ShotUpdaterType1.cs
-  artifactKey: Guid(89a2ccb1be0673142b725657473bfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Updaters/ShotUpdaterType1.cs using Guid(89a2ccb1be0673142b725657473bfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b51dcfbc93a7254b9c51543d2c013aa') in 0.004563 seconds
-  Import took 0.006857 seconds .
+  Time since last request: 1.466256 seconds.
+  path: Assets/Script/Updaters/SpawnUpdater.cs
+  artifactKey: Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Updaters/SpawnUpdater.cs using Guid(72254e96b5bd99a41ae8d28c34ea3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc7ffe4631ef23a6d6704d7513b348f') in 0.001535 seconds
+  Import took 0.003533 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000897 seconds.
+Registered in 0.000636 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002A8F7CD1D30 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDED3020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCCFB010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC6A8010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDFF1060 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDED3020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F801B9C0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FE055030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCE8C020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEEFA020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7F5FC70 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCECD5F0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  0.765 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.9 MB.
 System memory in use after: 57.9 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1598.
-Total: 2.949700 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.454800 ms  DeleteObjects: 0.056300 ms)
+Total: 1.922400 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.710600 ms  DeleteObjects: 0.062200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000852 seconds.
+Registered in 0.000783 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002A8FE936730 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8539040 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCCFB010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F80BB0A0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A91FF2F020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8539040 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F801B9C0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEED6050 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FE3F74E0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FEEFA020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDB31040 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCECD5F0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
+- Completed reload, in  0.759 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.9 MB.
 System memory in use after: 57.9 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1601.
-Total: 1.793500 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.513900 ms  DeleteObjects: 0.048600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001185 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1604.
-Total: 2.149100 ms (FindLiveObjects: 0.128900 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.929200 ms  DeleteObjects: 0.051700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1607.
-Total: 3.733000 ms (FindLiveObjects: 0.269200 ms CreateObjectMapping: 0.101500 ms MarkObjects: 3.231100 ms  DeleteObjects: 0.128700 ms)
+Total: 1.758000 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.504900 ms  DeleteObjects: 0.046300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 932.248339 seconds.
-  path: Assets/Script/ObjectPooling/TestScript.cs
-  artifactKey: Guid(0653ef6a791b66e468991771e9b8c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ObjectPooling/TestScript.cs using Guid(0653ef6a791b66e468991771e9b8c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9f26bf45f9a959a857c1c07fa07ce0') in 0.008319 seconds
-  Import took 0.010375 seconds .
+  Time since last request: 223.706684 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(eae077b0c596b2f49b61ced4817ed9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(eae077b0c596b2f49b61ced4817ed9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac9f61553f92d7ae6cd3a1dd03fb504') in 0.088063 seconds
+  Import took 0.091161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.083443 seconds.
-  path: Assets/Script/ObjectPooling/TestScript.cs
-  artifactKey: Guid(0653ef6a791b66e468991771e9b8c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ObjectPooling/TestScript.cs using Guid(0653ef6a791b66e468991771e9b8c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9f26bf45f9a959a857c1c07fa07ce0') in 0.005587 seconds
-  Import took 0.007975 seconds .
+  Time since last request: 0.005379 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(eae077b0c596b2f49b61ced4817ed9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(eae077b0c596b2f49b61ced4817ed9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac9f61553f92d7ae6cd3a1dd03fb504') in 0.008423 seconds
+  Import took 0.010955 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000831 seconds.
+Registered in 0.000656 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002A8FE936730 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FC6A8010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCCFB010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F8499030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A9203A8D20 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F84537D0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F801B9C0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8F7C53010 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FCE8C020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FD885020 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FDB8B030 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A8FF0221A0 doesn't match image E:\User\Documents\ESGI\gameplay prog\Boidin_Morcet_3ADJV_PROGGAMEPLAY\Touhou ECS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
-Total: 1.778800 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.519400 ms  DeleteObjects: 0.055600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001528 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
+- Completed reload, in  0.718 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
+System memory in use before: 61.0 MB.
+System memory in use after: 61.1 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
-Total: 1.462100 ms (FindLiveObjects: 0.122500 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.262400 ms  DeleteObjects: 0.045000 ms)
+Total: 3.354900 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.122000 ms MarkObjects: 2.837300 ms  DeleteObjects: 0.073700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.918156 seconds.
+  path: Assets/Enemy proj.prefab
+  artifactKey: Guid(d88529aa21911ae4fba0d97572bc9a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy proj.prefab using Guid(d88529aa21911ae4fba0d97572bc9a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2211ef651a0f368716dc3842b6efe52') in 0.055667 seconds
+  Import took 0.058462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402924 seconds.
+  path: Assets/Bullets.prefab
+  artifactKey: Guid(573e5428a1b24234fb3c8cd3fd6b918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets.prefab using Guid(573e5428a1b24234fb3c8cd3fd6b918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813dcd56786105600c4c271ef55cb86a') in 0.009077 seconds
+  Import took 0.011259 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
