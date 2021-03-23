@@ -17,7 +17,7 @@ public class PoolManager : MonoBehaviour
    
     static public PoolManager Instance() { return _singleton; }
     static private PoolManager _singleton;
-    public int maxClientsCount;
+   
    
 
     private void Awake()
@@ -46,7 +46,7 @@ public class PoolManager : MonoBehaviour
     // get an inactive object of type from a pool
     public PoolableObject GetPooledObject(objectType parObjectType)
     {
-        Debug.Log("bra");
+       
         return Pools[parObjectType].PullObject();
     }
 
