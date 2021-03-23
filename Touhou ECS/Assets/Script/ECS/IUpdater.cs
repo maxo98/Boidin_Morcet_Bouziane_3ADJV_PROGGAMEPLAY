@@ -1,31 +1,33 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IUpdater : MonoBehaviour
+namespace Script.ECS
 {
-    private readonly Dictionary<string, TAccessor<TModule>> _dictionary = new Dictionary<string, TAccessor<TModule>>();
-    private static IUpdater _singleton; 
-
-    public static IUpdater Instance()
+    public class IUpdater : MonoBehaviour
     {
-        return _singleton;
-    }
+        private readonly Dictionary<string, TAccessor<TModule>> _dictionary = new Dictionary<string, TAccessor<TModule>>();
+        private static IUpdater _singleton; 
 
-    private void Awake()
-    {
-        _singleton = this;
-    }
-
-    public void SystemUpdate(IEnumerable<TModule> moduleList)
-    {
-        foreach (var module in moduleList)
+        public static IUpdater Instance()
         {
-            if (!_dictionary.ContainsKey(module.GetType().Name))
+            return _singleton;
+        }
+
+        private void Awake()
+        {
+            _singleton = this;
+        }
+
+        public void SystemInit(IEnumerable<TModule> moduleList)
+        {
+            foreach (var module in moduleList)
             {
-                _dictionary.Add(module.GetType().Name, new TAccessor<TModule>());
+                if (!_dictionary.ContainsKey(module.GetType().Name))
+                {
+                    _dictionary.Add(module.GetType().Name, new TAccessor<TModule>());
+                }
+                _dictionary[module.GetType().Name].Add(module);
             }
-            _dictionary[module.GetType().Name].Add(module);
         }
     }
 }
