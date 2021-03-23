@@ -22,7 +22,6 @@ namespace Script.Updaters
             
             foreach (var module in spawnAccessor.GetAllModules())
             {
-                Debug.Log("ff");
                 PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
                 
                 if (ennemy != null)
