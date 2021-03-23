@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class SpeedModule : MonoBehaviour
+public class SpeedModule : TModule
 {
     public float Speed { get; set; }
 }
