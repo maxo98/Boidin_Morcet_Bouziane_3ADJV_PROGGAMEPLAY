@@ -6,6 +6,7 @@ namespace Script.Modules
     public class CooldownModule: TModule
     {
         [SerializeField] private float cooldown;
+        private float resetCooldown = 1;
         
         private void Awake()
         {
@@ -16,6 +17,12 @@ namespace Script.Modules
         {
             get => cooldown;
             set => cooldown = value;
+        }
+
+        public float ResetCooldown
+        {
+            get => resetCooldown;
+            set => resetCooldown = value;
         }
     }
 }

@@ -128,7 +128,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4820820980787960989, guid: 573e5428a1b24234fb3c8cd3fd6b918f, type: 3}
   m_PrefabInstance: {fileID: 4820820981194524803}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1558231194}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22a05c0f06b415f419dcaa559e586e16, type: 3}
@@ -661,6 +661,24 @@ Transform:
   m_Father: {fileID: 963194228}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1558231194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4820820980787960990, guid: 573e5428a1b24234fb3c8cd3fd6b918f, type: 3}
+  m_PrefabInstance: {fileID: 4820820981194524803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1558231199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558231194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7abacf78374883b4cf9cfb73f70310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1595752182
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,7 +856,6 @@ GameObject:
   - component: {fileID: 2047600109}
   - component: {fileID: 2047600108}
   - component: {fileID: 2047600107}
-  - component: {fileID: 2047600113}
   - component: {fileID: 2047600112}
   m_Layer: 0
   m_Name: Cube
@@ -948,21 +965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7abacf78374883b4cf9cfb73f70310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
---- !u!114 &2047600113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047600106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8794ed77c558204c912f5f3be592ac7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  magnitude: 0
-  frequency: 0
+  speed: 5
 --- !u!1001 &1809342689357059248
 PrefabInstance:
   m_ObjectHideFlags: 0

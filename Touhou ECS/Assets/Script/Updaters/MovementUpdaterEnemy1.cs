@@ -6,17 +6,26 @@ namespace Script.Updaters
 {
     public class MovementUpdaterEnemy1 : IUpdater
     {
-        public void SystemUpdate()
+        private static MovementUpdaterEnemy1 _singleton;
+        public static MovementUpdaterEnemy1 Instance()
         {
-            var playerAccessor = TAccessor<SpeedModule>.Instance();
+            return _singleton ??= new MovementUpdaterEnemy1();
+        }
 
-            foreach (var module in playerAccessor.GetAllModules())
+
+        public new void SystemUpdate()
+        {
+            var speedAccessor = TAccessor<SpeedModule>.Instance();
+
+            foreach (var module in speedAccessor.GetAllModules())
             {
+                Debug.Log("J'AVANCErrrr");
                 var entity = module.gameObject;
-                var currentMod = playerAccessor.TryGetModule(entity);
+                var currentMod = speedAccessor.TryGetModule(entity);
 
                 if (currentMod != null)
                 {
+                    Debug.Log("J'AVANCE");
                     entity.transform.position = entity.transform.forward * Time.deltaTime * currentMod.Speed;
                 }
             }

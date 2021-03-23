@@ -19,19 +19,18 @@ namespace Script.Updaters
         public new void SystemUpdate()
         {
             var poolManager = PoolManager.Instance();
-            var speedAccessor = TAccessor<SpeedModule>.Instance();
             var cooldownAccessor = TAccessor<CooldownModule>.Instance();
-
-            foreach (var module in speedAccessor.GetAllModules())
+            foreach (var module in cooldownAccessor.GetAllModules())
             {
                 var entity = module.gameObject;
-                var otherMod = cooldownAccessor.TryGetModule(entity);
 
-                if (module != null && otherMod != null)
+                if (module != null)
                 {
-                    if (otherMod.Cooldown <= 0)
+
+                    if (module.ResetCooldown <= 0)
                     {
                         Debug.Log("Pan !");
+                        module.ResetCooldown = module.Cooldown;
                         PoolableObject bullet = poolManager.GetPooledObject(objectType.bullet);
 
                         // Initialize and set active all instancied bullet in the bullet pool 
@@ -44,7 +43,7 @@ namespace Script.Updaters
                     }
                     else
                     {
-                        otherMod.Cooldown -= Time.deltaTime;
+                        module.ResetCooldown -= Time.deltaTime;
                     }
                 }
             }
