@@ -2,11 +2,13 @@ using Script.ECS;
 using Script.Modules;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Xml;
 
 namespace Script.Updaters
 {
     public class SpawnUpdater : IUpdater
     {
+        private float _timeRemaining = 20;
         private static SpawnUpdater _singleton;
         public static SpawnUpdater Instance()
         {
@@ -19,19 +21,25 @@ namespace Script.Updaters
         {
             var  poolManager = PoolManager.Instance();
             var spawnAccessor = TAccessor<SpawnModule>.Instance();
-            
+
             foreach (var module in spawnAccessor.GetAllModules())
             {
-                PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
-                
-                if (ennemy != null)
+                if (_timeRemaining > 0)
                 {
-                    ennemy.Init();
-                    _objects.Add(ennemy);
+                    _timeRemaining -= Time.deltaTime;
 
-                    ennemy.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f));
                 }
-                
+                else
+                {
+                    _timeRemaining = 20;
+                    PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
+
+                    if (ennemy != null)
+                    {
+                        ennemy.Init(new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f)));
+                        _objects.Add(ennemy);
+                    }
+                }
             }
         }
     }

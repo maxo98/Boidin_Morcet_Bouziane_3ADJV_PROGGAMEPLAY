@@ -533,36 +533,6 @@ Transform:
   m_Father: {fileID: 963194228}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1355838392 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2391053565107828410, guid: e8a3316ca690f464eb9c46138803b247, type: 3}
-  m_PrefabInstance: {fileID: 3667590027189869579}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1355838393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355838392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a25763245253a7e4187a9e10e7ecbd70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1355838394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355838392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313d901475c41e94a9f0e5133a3ba318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
 --- !u!1 &1438067636
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +600,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1595752185}
   - component: {fileID: 1595752184}
-  - component: {fileID: 1595752183}
   m_Layer: 0
   m_Name: PoolManager
   m_TagString: Untagged
@@ -638,19 +607,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1595752183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595752182}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0653ef6a791b66e468991771e9b8c75f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRemaining: 3
 --- !u!114 &1595752184
 MonoBehaviour:
   m_ObjectHideFlags: 0

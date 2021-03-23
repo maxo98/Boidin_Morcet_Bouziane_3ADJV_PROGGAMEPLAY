@@ -20,26 +20,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de0bde89-2b7f-4495-8620-6e81a90645a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Touhou ECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Touhou ECS/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Touhou ECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Touhou ECS/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Touhou ECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Touhou ECS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Erwan's Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Erwan's Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ECS/UpdateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ECS/UpdateManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Modules/ZigZagModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Modules/ZigZagModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ObjectPooling/PoolableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ObjectPooling/PoolableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ObjectPooling/TestScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ObjectPooling/TestScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/CharacterMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/CharacterMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/EnemyMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/EnemyMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/EnemyShoot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/EnemyShoot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/EnemyZigZac.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/EnemyZigZac.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/PlayerInputController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/PlayerInputController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/ProjEnemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Old/ProjEnemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterZigZag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterZigZag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Updaters/ShotUpdaterType1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Updaters/ShotUpdaterType1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Updaters/SpawnUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Updaters/SpawnUpdater.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Updaters/SpawnUpdater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Updaters/SpawnUpdater.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/43/4364b86e54f8a740ff5932d4150c95f5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5b/5bdb77caa0e9b7112bbbeba61715506e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7c/7c8718daa96078aac1080c371b530ec7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9f/9f1575b273a577866804dc91cf61ca0b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d5/d5fe764b92323787c10490463b15d94e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ec/ec321610318a16ec0c8a59fc5b53784c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/55/555c8e3c404d92980eb204b9f072d18b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bf/bfb0e0f0c10362f49849cd65e4bb9679" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/b0/b0864415f56aa58b72e2499a1aa88142.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/b0/b0864415f56aa58b72e2499a1aa88142.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,16 +90,21 @@
         <option value="$PROJECT_DIR$/Assets/SpeedModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MovementUpdaterEnemy1.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Modules/Enemy1Module.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Modules/ZigZagModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterZigZag.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ECS/TModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Modules/SpeedModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Modules/CooldownModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Updaters/ShotUpdaterType1.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ECS/IUpdater.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/ECS/UpdateManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterEnemy1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Modules/PlayerShootUpdater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Modules/PlayerShotModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ObjectPooling/PoolableObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Updaters/ShotUpdaterType1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Modules/PlayerSpeedModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ECS/UpdateManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Old/EnemyZigZac.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Modules/ZigZagModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Updaters/MovementUpdaterZigZag.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Updaters/SpawnUpdater.cs" />
       </list>
     </option>
@@ -132,6 +162,7 @@
       <workItem from="1616516072516" duration="3710000" />
       <workItem from="1616524852886" duration="222000" />
       <workItem from="1616525601983" duration="318000" />
+      <workItem from="1616528318157" duration="1137000" />
     </task>
     <servers />
   </component>

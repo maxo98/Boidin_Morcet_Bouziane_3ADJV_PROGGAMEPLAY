@@ -17,6 +17,8 @@
           <e p="Modules" t="Include">
             <e p="CooldownModule.cs" t="Include" />
             <e p="Enemy1Module.cs" t="Include" />
+            <e p="PlayerShotModule.cs" t="Include" />
+            <e p="PlayerSpeedModule.cs" t="Include" />
             <e p="SpawnModule.cs" t="Include" />
             <e p="SpeedModule.cs" t="Include" />
             <e p="ZigZagModule.cs" t="Include" />
@@ -25,20 +27,12 @@
             <e p="Pool.cs" t="Include" />
             <e p="PoolableObject.cs" t="Include" />
             <e p="PoolManager.cs" t="Include" />
-            <e p="TestScript.cs" t="Include" />
-          </e>
-          <e p="Old" t="Include">
-            <e p="CharacterMovement.cs" t="Include" />
-            <e p="EnemyMovement.cs" t="Include" />
-            <e p="EnemyShoot.cs" t="Include" />
-            <e p="EnemyZigZac.cs" t="Include" />
-            <e p="PlayerInputController.cs" t="Include" />
-            <e p="ProjEnemy.cs" t="Include" />
           </e>
           <e p="Updaters" t="Include">
             <e p="MovementUpdaterEnemy1.cs" t="Include" />
             <e p="MovementUpdaterPlayer.cs" t="Include" />
             <e p="MovementUpdaterZigZag.cs" t="Include" />
+            <e p="PlayerShootUpdater.cs" t="Include" />
             <e p="ShotUpdaterType1.cs" t="Include" />
             <e p="SpawnUpdater.cs" t="Include" />
           </e>

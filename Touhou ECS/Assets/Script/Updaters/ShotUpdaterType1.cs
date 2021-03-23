@@ -36,7 +36,7 @@ namespace Script.Updaters
                         // Initialize and set active all instancied bullet in the bullet pool 
                         if (bullet != null)
                         {
-                            bullet.Init();
+                            bullet.Init(entity.transform.position);
                             _objects.Add(bullet);
 
                         }

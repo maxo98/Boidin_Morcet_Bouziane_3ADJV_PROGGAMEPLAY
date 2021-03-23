@@ -8,9 +8,11 @@ public class PoolableObject : MonoBehaviour
     {
         return gameObject.activeInHierarchy;
     }
-    public void Init()
+
+    public void Init(Vector3 position)
     {
         gameObject.SetActive(true);
+        gameObject.transform.position = position;
     }
     public void DeInit()
     {
