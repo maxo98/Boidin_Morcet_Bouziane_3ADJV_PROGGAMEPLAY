@@ -8,6 +8,8 @@ public class TestScript : MonoBehaviour
     
     List<PoolableObject> Objects;
     PoolManager poolManager;
+    private int countPattern=0;
+    public float timeRemaining ;
     void Start()
     {
         // Objects contient l'ensemble des objets instanciés et actif sur la scène
@@ -15,37 +17,55 @@ public class TestScript : MonoBehaviour
         poolManager = PoolManager.Instance();
     }
     private void Update()
-    {        
-        PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
+    {
         int objectCount = Objects.Count;
-
-        // Initialize and set active all instancied ennemy in the ennemy pool 
-        if (ennemy != null)
+        if (timeRemaining > 0)
         {
-            ennemy.Init();
-            Objects.Add(ennemy);
+            timeRemaining -= Time.deltaTime;
             
         }
-
-        PoolableObject bullet = poolManager.GetPooledObject(objectType.bullet);
-
-        // Initialize and set active all instancied bullet in the bullet pool 
-        if (bullet != null)
+        else
         {
-            bullet.Init();
-            Objects.Add(bullet);
+            timeRemaining = 3;
             
+            PoolableObject ennemy = poolManager.GetPooledObject(objectType.ennemy);
+
+
+
+            // Initialize and set active all instancied ennemy in the ennemy pool 
+            if (ennemy != null)
+            {
+                ennemy.Init();
+                Objects.Add(ennemy);
+                 
+                ennemy.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f));
+                countPattern += 3;
+            }
         }
+
+
+
+
+        /* PoolableObject bullet = poolManager.GetPooledObject(objectType.bullet);
+
+         // Initialize and set active all instancied bullet in the bullet pool 
+         if (bullet != null)
+         {
+             bullet.Init();
+             Objects.Add(bullet);
+
+         }*/
 
         // Désactive/release tout les objets dans la liste Objects
-        /*for (int i = 0; i < objectCount; ++i)
+       /* for (int i = 0; i < objectCount; ++i)
         {
             if (Objects[i] != null)
             {
                 poolManager.ReleasePooledObject(Objects[i]);
-                
+
             }
         }*/
+
     }
 
 
