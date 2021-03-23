@@ -1,7 +1,16 @@
-﻿namespace Script.Modules
+﻿using UnityEngine;
+namespace Script.Modules
 {
     public class SpeedModule : TModule
     {
-        public float Speed { get; set; }
+        [SerializeField] private float speed;
+
+
+        public float Speed
+        {
+            get => speed;
+            set => speed = value;
+        }
+
     }
 }

@@ -1,7 +1,16 @@
+using UnityEngine;
+
 namespace Script.Modules
+
 {
     public class CooldownModule: TModule
     {
-        public float Cooldown { get; set; }
+        [SerializeField] private float cooldown;
+
+        public float Cooldown
+        {
+            get => cooldown;
+            set => cooldown = value;
+        }
     }
 }
