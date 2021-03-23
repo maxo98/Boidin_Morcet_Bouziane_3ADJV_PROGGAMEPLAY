@@ -7,7 +7,7 @@ using UnityEngine;
 public class TAccessor<T>
 {
     private static TAccessor<T> _singleton;
-    private List<T> _list = new List<T>();
+    private readonly List<T> _list = new List<T>();
 
     public static TAccessor<T> Instance()
     {
