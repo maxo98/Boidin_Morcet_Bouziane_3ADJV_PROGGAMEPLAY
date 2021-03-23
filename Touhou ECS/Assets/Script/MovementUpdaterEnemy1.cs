@@ -1,21 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+using Script.ECS;
 using UnityEngine;
 
-public class MovementUpdaterEnemy1 : IUpdater
+namespace Script
 {
-    public void SystemUpdate()
+    public class MovementUpdaterEnemy1 : IUpdater
     {
-        var playerAccessor = TAccessor<SpeedModule>.Instance();
-
-        foreach (var module in playerAccessor.GetAllModules())
+        public void SystemUpdate()
         {
-            var entity = module.gameObject;
-            var currentMod = playerAccessor.TryGetModule(entity);
+            var playerAccessor = TAccessor<SpeedModule>.Instance();
 
-            if (currentMod != null)
+            foreach (var module in playerAccessor.GetAllModules())
             {
-                entity.transform.position = entity.transform.forward * Time.deltaTime * currentMod.Speed;
+                var entity = module.gameObject;
+                var currentMod = playerAccessor.TryGetModule(entity);
+
+                if (currentMod != null)
+                {
+                    entity.transform.position = entity.transform.forward * Time.deltaTime * currentMod.Speed;
+                }
             }
         }
     }

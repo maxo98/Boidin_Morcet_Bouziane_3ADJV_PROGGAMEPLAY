@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Script.ECS;
 using UnityEngine;
 
 public class MovementUpdaterZigZag : IUpdater
